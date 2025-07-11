@@ -1,24 +1,17 @@
-enable-magisk-update = true
-parallel-jobs = 2
-compression-level = 9
-remove-rv-integrations-checks = true
-rv-brand = "ReVanced ReX"
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+parallel-jobs = 1
 
-[YouTube]
-enabled = true
-app-name = "YT+++++"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+# add 'enabled = false' for not patching a specific app or remove it from the config
+# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+
+# you can use rvmm-config-gen to generate a config
+
+[YT++]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "both"
-include-stock = true
 excluded-patches = "'GmsCore support'"
-patcher-args = """\
-  -O 'packageName=app.revanced.ytplus' \
-"""
 
-[Spotify]
-enabled = true
-app-name = "Spotify"
+[com.spotify.music]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ltd/spotify-music/"
 build-mode = "both"
-include-stock = true
-# Pas de excluded-patches ni patcher-args ici
+
