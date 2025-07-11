@@ -21,4 +21,4 @@ app-name = "Spotify"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ltd/spotify-music/"
 build-mode = "both"
 include-stock = true
-# Pas de patch exclu, package + signature originaux
+# Pas de excluded-patches ni patcher-args ici
