@@ -6,12 +6,12 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
+
 [YT++]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "both"
 excluded-patches = "'GmsCore support'"
 
 [com.spotify.music]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ltd/spotify-music/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 build-mode = "both"
-
